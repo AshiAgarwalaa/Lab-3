@@ -24,10 +24,10 @@ public class AddressBook {
         {
 
             System.out.println("\nMain Menu");
-            System.out.println("1. Add an Entry");
-            System.out.println("2. Delete an Entry");
-            System.out.println("3. View All Entries");
-            System.out.println("4. Update an Entry");
+            System.out.println("1. Add a Buddy");
+            System.out.println("2. Delete a Buddy");
+            System.out.println("3. View All Buddies");
+            System.out.println("4. Update a Buddy's Info");
             System.out.println("5. Exit");
             System.out.print("Please enter Choices from 1 to 5: \n");
             input =(in.next());
