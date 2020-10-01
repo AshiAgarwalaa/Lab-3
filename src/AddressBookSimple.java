@@ -21,8 +21,10 @@ public class AddressBookSimple {
         System.out.println("AddressBook");
 
         BuddyInfo buddy = new BuddyInfo("tom","xyz str.","613-xxx-xxxx","tom@ex.com");
+        BuddyInfo buddy2 = new BuddyInfo("Adam","beta str.","613-xxx-xxxx","adam@ex.com");
         AddressBookSimple book = new AddressBookSimple();
         book.addBuddyInfo(buddy);
+        book.addBuddyInfo(buddy2);
         book.removeBuddyInfo(0);
 
 
