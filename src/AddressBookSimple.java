@@ -17,6 +17,11 @@ public class AddressBookSimple {
             this.book.remove(i);
         }
     }
+
+    public BuddyInfo get(int index) {
+        //returns the object at the given index
+        return this.book.get(index);
+    }
     public static void main(String[] args){
         System.out.println("AddressBook");
         // Adding a comment, nothing much
@@ -28,7 +33,7 @@ public class AddressBookSimple {
         book.addBuddyInfo(buddy2);
         book.removeBuddyInfo(0);
 
-
+        System.out.println(book.get(0));
         System.out.println("This is a book");
     }
 }
