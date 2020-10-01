@@ -19,6 +19,7 @@ public class AddressBookSimple {
     }
     public static void main(String[] args){
         System.out.println("AddressBook");
+        // Adding a comment, nothing much
 
         BuddyInfo buddy = new BuddyInfo("tom","xyz str.","613-xxx-xxxx","tom@ex.com");
         BuddyInfo buddy2 = new BuddyInfo("Adam","beta str.","613-xxx-xxxx","adam@ex.com");
